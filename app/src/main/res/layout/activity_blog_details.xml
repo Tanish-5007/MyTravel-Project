@@ -13,9 +13,9 @@
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-<!--        tools:src="@drawable/sydney_image"-->
-<!--        tools:ignore="ContentDescription" />-->
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/sydney_image"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textTitle"
@@ -107,9 +107,9 @@
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageMain"/>
-<!--        tools:src="@drawable/avatar"-->
-<!--        tools:ignore="ContentDescription" />-->
+        app:layout_constraintTop_toBottomOf="@+id/imageMain"
+        tools:src="@drawable/avatar"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textDescription"
